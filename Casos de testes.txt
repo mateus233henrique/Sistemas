@@ -1,48 +1,72 @@
-# Caso de Teste 1– Criar conta (Funcionalidade)
-objetivo: Validar a funcionalidade “criar conta” no sistema 
+# 📋 Casos de Teste – Sistema Bancário
 
-Pré-condição: Acesso ao sistema
+---
 
-Passos:
-    1.	Acessar o pycharm 
-    2.	Codar o sistema
-    3.	Informar o nome do titular
+## 🧪 CT001 – Criar Conta
 
-Resultado esperado: Exibir mensagem “Conta criada com sucesso.”
+**Objetivo:**  
+Validar que o sistema permite criar uma conta com sucesso.
 
-# Caso de Teste 2– Depositar (Funcionalidade)
-Objetivo: Validar se a opção “depositar” identifica o nome da conta ao ser digitado e inserir o valor depositado pelo titular
+**Pré-condições:**  
+- Usuário não cadastrado no sistema
 
-Pré-condição: titular deve está com a conta criada
+**Passos:**
+1. Informar o nome do titular
+2. Confirmar criação da conta
 
-Passos:
-    1.	Acessar o pycharm 
-    2.	Codar o sistema
-    3.	Informar o nome do titular cadastrado
-    4.	Informar o valor desejado para ser depositado na conta cadastrada
+**Resultado Esperado:**  
+- Exibir mensagem: "Conta criada com sucesso."
 
-Resultado esperado: Exibir mensagem “Depósito realizado com sucesso.”
+---
 
-# Caso de Teste 3– Sacar (Funcionalidade)
-Objetivo: Validar se a opção “sacar” identifica o nome da conta ao ser digitado e inserir o valor do saque pelo titular
+## 🧪 CT002 – Depositar Valor
 
-Pré-condição: titular deve está com a conta criada
-•	Passos:
-    1.	Acessar o pycharm 
-    2.	Codar o sistema
-    3.	Informar o nome do titular cadastrado
-    4.	Informar o valor desejado para ser sacado na conta cadastrada
+**Objetivo:**  
+Validar que o sistema realiza depósitos corretamente.
 
-Resultado esperado: exibir mensagem “Saque realizado com sucesso”.
+**Pré-condições:**  
+- Conta previamente criada
 
-## Caso de Teste 4– Consultar saldo (Funcionalidade)
-Objetivo: Validar se a opção “consultar saldo” identifica o nome da conta ao ser digitado pelo titular pode ser consultado e verificar se está de acordo com os valores depositados e sacados no saldo atual
+**Passos:**
+1. Informar nome do titular
+2. Informar valor válido para depósito
+3. Confirmar operação
 
-Pré-condição: titular deve está com a conta criada, com valores depositados e sacados
+**Resultado Esperado:**  
+- Exibir mensagem: "Depósito realizado com sucesso."
+- Saldo atualizado corretamente
 
-Passos:
-    1.	Acessar o pycharm 
-    2.	Codar o sistema
-    3.	Informar o nome do titular cadastrado
+---
 
-Resultado esperado: exibir mensagem “Saldo atual: R$ x.x”.
+## 🧪 CT003 – Sacar Valor
+
+**Objetivo:**  
+Validar que o sistema realiza saques corretamente.
+
+**Pré-condições:**  
+- Conta criada com saldo disponível
+
+**Passos:**
+1. Informar nome do titular
+2. Informar valor do saque
+3. Confirmar operação
+
+**Resultado Esperado:**  
+- Exibir mensagem: "Saque realizado com sucesso."
+- Saldo atualizado corretamente
+
+---
+
+## 🧪 CT004 – Consultar Saldo
+
+**Objetivo:**  
+Validar que o sistema exibe o saldo corretamente.
+
+**Pré-condições:**  
+- Conta criada com movimentações realizadas
+
+**Passos:**
+1. Informar nome do titular
+
+**Resultado Esperado:**  
+- Exibir saldo atualizado no formato: "Saldo atual: R$ X.XX"
