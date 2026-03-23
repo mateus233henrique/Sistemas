@@ -1,8 +1,8 @@
-# 📋 Casos de Teste – Sistema Bancário
+# Casos de Teste – Sistema Bancário
 
 ---
 
-## 🧪 CT001 – Criar Conta
+## CT001 – Criar Conta
 
 **Objetivo:**  
 Validar que o sistema permite criar uma conta com sucesso.
@@ -19,7 +19,7 @@ Validar que o sistema permite criar uma conta com sucesso.
 
 ---
 
-## 🧪 CT002 – Depositar Valor
+## CT002 – Depositar Valor
 
 **Objetivo:**  
 Validar que o sistema realiza depósitos corretamente.
@@ -38,7 +38,7 @@ Validar que o sistema realiza depósitos corretamente.
 
 ---
 
-## 🧪 CT003 – Sacar Valor
+## CT003 – Sacar Valor
 
 **Objetivo:**  
 Validar que o sistema realiza saques corretamente.
@@ -57,7 +57,7 @@ Validar que o sistema realiza saques corretamente.
 
 ---
 
-## 🧪 CT004 – Consultar Saldo
+## CT004 – Consultar Saldo
 
 **Objetivo:**  
 Validar que o sistema exibe o saldo corretamente.
